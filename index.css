@@ -12,6 +12,7 @@
 }
 body {
     background-color: #f9f1ea;
+    font-family: 'Raleway', sans-serif;
 }
 .header {
     text-align: center;
@@ -53,11 +54,24 @@ img.article {
 }
 article {
     display: inline-block;
-    width: 20%;
-    padding: 5px;
+    width: 45%;
+    margin-right: 20px;
     vertical-align: top;
 }
 
-article:last-child {
-    padding-right: 0px;
+article:nth-child(even) {
+    margin-right: 0px;
+}
+
+section.nieuws {
+width: 30%;
+    float: left;
+}
+
+section.instrumenten {
+    width: 70%;
+    float: right;
+}
+h3 {
+    color: #dc6a5e;
 }
