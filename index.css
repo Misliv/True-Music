@@ -5,7 +5,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color: #faf1ea;
+    background-color: rgb(250, 241, 234);
     font-family: 'Raleway', sans-serif;
 }
 
@@ -23,6 +23,9 @@ div#wrapper {
     font-size: 40px;
 }
 
+img#logo {
+    width:320px
+}
 ul {
     padding: 0px;
     margin: 0px;
@@ -35,6 +38,64 @@ li {
     border-top:1px solid white;
 }
 
+li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+@media all and (min-width: 550px) {
+    ul {
+        background-color: rgb(128, 128, 128);
+        border-top: 1px solid white;
+    }
+    li {
+        display: inline-block;
+        border: none;
+    }
+}
+
+@media all and (min-width: 920px) {
+    ul {
+        background-color: rgb(128, 128, 128);
+        border-top: 1px solid white;
+    }
+    li {
+        display: inline-block;
+        border: none;
+    }
+}
+
+h3 {
+    color: rgb(220, 106, 94);
+    font-weight: 600;
+    font-size: 22px;
+}
+
+section, footer {
+    padding: 20px;
+}
+
+@media all and (min-width: 550px) {
+   section#nieuws {
+       width: 40%;
+       float: left;
+   }
+    section#instrumenten {
+        width: 60%;
+        float: right;
+    }
+}
+
+footer {
+    background-color: rgb(128, 128, 128);
+    color: white;
+    clear: both;
+}
+
+footer h3 {
+    color: white;
+}
 .navbar {
     overflow: hidden;
     background-color: #808080;
@@ -103,17 +164,17 @@ h3 {
 
 @media all and (min-width: 920px) {
     section.nieuws {
-        width: 30%;
+        width: 50%;
         float: left;
     }
     section.instrumenten {
-        width: 70%;
+        width: 50%;
         float: right;
     }
     article {
         display: inline-block;
         width: 48%;
-        margin-right: 20px;
+        margin-right: 10px;
     }
     article:nth-child(even) {
         margin-right: 0px;
