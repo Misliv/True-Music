@@ -9,10 +9,6 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-div#wrapper {
-    background-color: rgb(250, 241, 234);
-}
-
 .header {
     text-align: center;
     background: #c0f0df;
@@ -45,17 +41,6 @@ li a {
 }
 
 @media all and (min-width: 550px) {
-    ul {
-        background-color: rgb(128, 128, 128);
-        border-top: 1px solid white;
-    }
-    li {
-        display: inline-block;
-        border: none;
-    }
-}
-
-@media all and (min-width: 920px) {
     ul {
         background-color: rgb(128, 128, 128);
         border-top: 1px solid white;
@@ -173,7 +158,7 @@ h3 {
     }
     article {
         display: inline-block;
-        width: 48%;
+        width: 60%;
         margin-right: 10px;
     }
     article:nth-child(even) {
